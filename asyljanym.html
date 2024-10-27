@@ -65,7 +65,7 @@
 
             currentText.split('').forEach((letter, i) => {
                 const span = document.createElement('span');
-                span.textContent = letter === ' ' ? '\u00A0' : letter; // Заменяем пробел на неразрывный пробел
+                span.textContent = letter === ' ' ? '\u00A0' : letter; 
                 span.classList.add('letter');
                 textContainer.appendChild(span);
 
